@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Counter} from "./components/counter/Counter";
 import String from "./components/string/String";
+import SimCard from "./components/simCard/SimCard";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       </header>*/}
       {/*<MyButton></MyButton>*/}
       {/*<Counter></Counter>*/}
-      <String></String>
+      {/*<String></String>*/}
+      <SimCard></SimCard>
     </div>
   );
 }
